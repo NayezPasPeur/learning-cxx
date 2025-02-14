@@ -14,8 +14,7 @@ struct Fibonacci {
     }
 
     // `get` 方法应该是 `constexpr`，并且 `const` 以支持 `constexpr Fibonacci`
-    // constexpr
-     int get(int i) const {
+    constexpr int get(int i) const {
         return numbers[i];
     }
 
